@@ -111,7 +111,7 @@ class OffPolicyAlgorithm(BaseAlgorithm):
             support_multi_env=support_multi_env,
             create_eval_env=create_eval_env,
             monitor_wrapper=monitor_wrapper,
-            seed=seed,
+            seed=seed, 
             use_sde=use_sde,
             sde_sample_freq=sde_sample_freq,
         )
